@@ -1,0 +1,36 @@
+
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 65px;
+    width: 100%;
+    flex-wrap: nowrap;
+    align-content: center;
+    padding-top: 20px;
+}
+.o{
+    padding-right: 30px;
+}
+.logo{
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+    padding-left: 60px;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    list-style: none;
+    padding-right: 60px;
+    
+}
+.list{
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+hr{
+    width: 100%;
+}
