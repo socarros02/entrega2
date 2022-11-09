@@ -8,6 +8,12 @@ header{
     align-content: center;
     padding-top: 20px;
 }
+main{
+    border-left: 1px black solid;
+    border-right: 1px black solid;
+    margin: 0px 60px;
+    height: 100%;
+}
 .o{
     padding-right: 30px;
 }
@@ -31,6 +37,38 @@ ul{
     text-decoration: none;
     color: black;
 }
-hr{
-    width: 100%;
+.portada{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    flex-wrap: nowrap;
+    gap: 100px;
+    padding: 10px 20px;
+    background-color: rgb(230, 230, 227);
+    margin: 0px 20px;
+    border-radius: 1rem;
+   
+}
+.img{
+    flex-direction: column;
+    align-content: center;
+    padding-top: 20px;
+}
+button{
+    border-radius: 1rem;
+    font-size: 20px;
+}
+.izq{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.boton{
+    background-color: black;
+    color: white;
+}
+.texto{
+    margin: 0px 20px;
+    text-align: center;
+    padding: 0px 90px;
 }
