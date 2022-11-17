@@ -7,30 +7,27 @@ header{
     flex-wrap: nowrap;
     align-content: center;
     padding-top: 20px;
+    background: rgb(228,255,255);
+    background: linear-gradient(0deg, rgba(228,255,255,1) 67%, rgba(171,181,255,1) 96%);
 }
-main{
-    border-left: 1px black solid;
-    border-right: 1px black solid;
-    margin: 0px 60px;
+main{  
+    margin: 0px 80px;
     height: 100%;
 }
-.o{
-    padding-right: 30px;
-}
+
 .logo{
     height: 80%;
     display: flex;
-    flex-direction: row;
-    padding-left: 60px;
 }
-ul{
+.nav{
     display: flex;
     flex-direction: row;
     gap: 10px;
     align-items: center;
-    list-style: none;
-    padding-right: 60px;
-    
+    list-style: none;    
+}
+ul{
+    list-style: none; 
 }
 .list{
     font-weight: bold;
@@ -44,10 +41,10 @@ ul{
     flex-wrap: nowrap;
     gap: 100px;
     padding: 10px 20px;
-    background-color: rgb(230, 230, 227);
+    background-color:;
     margin: 0px 20px;
     border-radius: 1rem;
-   
+    border: 1px solid black;
 }
 .img{
     flex-direction: column;
@@ -72,3 +69,121 @@ button{
     text-align: center;
     padding: 0px 90px;
 }
+
+.ventajas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.caja{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 60px;
+    flex-wrap: wrap;
+    
+}
+.cards{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 250px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 25px 10px;
+    border-radius: 15px;
+    gap: 3px;
+    background: rgb(228,255,255);
+background: linear-gradient(214deg, rgba(228,255,255,1) 67%, rgba(171,181,255,1) 96%);
+}
+.cards img {
+    padding-top: 5px;
+    width: 70%;
+    height: 50%;
+    border-radius: 15px;
+}
+.aut{}
+.aut img{
+    padding-top: 0px;
+}
+.contacto{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 60px;
+    flex-wrap: wrap;
+}
+.contacto img{
+    height: 50%;
+    width: 20%;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    height: 100px;
+    padding-top: 10px;
+    background: rgb(228,255,255);
+    background: linear-gradient(214deg, rgba(228,255,255,1) 67%, rgba(171,181,255,1) 93%);
+}
+footer img{
+    height: 50%;
+}
+@media(max-width: 1600px){
+    .contacto{  
+        justify-content: space-around;;}  
+    }   
+@media(max-width: 1300px){
+        .contacto{  
+            justify-content: space-around;
+           
+        }  
+        }   
+@media(max-width: 900px) {
+        main{
+            margin: 0px 15px;
+        }  
+    }
+
+@media(max-width: 800px){
+    main{
+        margin: 0px 10px;
+    }  
+   
+    .portada{
+            display: flex;
+            align-content: center;
+            justify-content: center;
+            flex-wrap: wrap;     
+            gap: 10px;
+            padding: 10px 20px;
+            margin: 0px 20px;
+            border-radius: 1rem;
+        }
+        .img{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            align-content: center;
+        }
+        .izq{
+                display: flex;
+                flex-direction: column;
+                gap: 5px;
+                align-items: center;
+                justify-content: center;            
+        }
+        .contacto{
+            justify-content: space-around;
+            
+        }
+    }
+@media(max-width: 700px){
+    .portada{
+        margin: 0px 5px;
+    }
+    }
